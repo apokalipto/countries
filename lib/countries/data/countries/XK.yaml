@@ -1,0 +1,18 @@
+---
+XK:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: XK
+  alpha3: XKO
+  country_code: '383'
+  currency: EUR
+  international_prefix: '00'
+  latitude: 42 60 N
+  longitude: 20 85 E
+  name: Kosovo
+  names:
+  - Kosovo
