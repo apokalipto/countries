@@ -51,7 +51,7 @@ task :update_cache do
         local_names[alpha2] = localized_name
       end
     end
-
+    
     codes.each do |alpha2|
       data[alpha2] ||= YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml"))[alpha2]
       data[alpha2]['translations'] ||= empty_translations_hash.dup
